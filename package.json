@@ -1,0 +1,30 @@
+{
+  "name": "scrape",
+  "version": "1.0.0",
+  "description": "sneaker release web scraper",
+  "main": "./src/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "mocha --reporter landing",
+    "start": "node ./src/index.js",
+    "devstart": "nodemon ./src/index.js"
+  },
+  "keywords": [],
+  "author": "Austin Chick",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.824.0",
+    "axios": "^0.21.1",
+    "chai": "^4.2.0",
+    "cheerio": "^1.0.0-rc.5",
+    "dotenv": "^8.2.0",
+    "mocha": "^8.2.1",
+    "winston": "^3.3.3",
+    "winston-cloudwatch": "^2.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
